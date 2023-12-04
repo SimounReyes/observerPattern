@@ -49,11 +49,5 @@ public class NewsAgency implements NewsAgencySubject {
                 "\n-------------------------------------------------------------\n");
         this.notifySubscribers();
     }
-    public List<Subscriber> getSubscriberList() {
-        return listOfSubscriber;
-    }
 
-    public void setSubscriberList(List<Subscriber> listOfSubscriber) {
-        this.listOfSubscriber = listOfSubscriber;
-    }
 }

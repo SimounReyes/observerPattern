@@ -50,7 +50,5 @@ public class NewsSubcriptionService {
 
         newNews.reportedNews();
 
-
-
     }
 }
