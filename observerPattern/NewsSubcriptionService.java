@@ -47,5 +47,8 @@ public class NewsSubcriptionService {
 
         newNews.reportedNews();
 
+        System.out.println("\n-----------------------------------------------------------\n" +
+                "Simoun Irwin G. Reyes|3BSCS-2");
+
     }
 }
