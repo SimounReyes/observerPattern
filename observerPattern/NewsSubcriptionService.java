@@ -1,8 +1,5 @@
 package observerPattern;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class NewsSubcriptionService {
     public static void main(String[] args) {
         NewsAgency newNews = new NewsAgency();
@@ -11,9 +8,9 @@ public class NewsSubcriptionService {
         Subscriber second = new Subscriber();
         Subscriber third = new Subscriber();
 
-        first.setSubscriberName("Jemuel");
-        second.setSubscriberName("Jaimart");
-        third.setSubscriberName("Jun");
+        first.setNameOfSubscriber("Jemuel");
+        second.setNameOfSubscriber("Jaimart");
+        third.setNameOfSubscriber("Jun");
 
         newNews.subscribe(first);
         newNews.subscribe(second);
@@ -33,8 +30,8 @@ public class NewsSubcriptionService {
         Subscriber forth = new Subscriber();
         Subscriber fifth = new Subscriber();
 
-        forth.setSubscriberName("Ian");
-        fifth.setSubscriberName("Lanz");
+        forth.setNameOfSubscriber("Ian");
+        fifth.setNameOfSubscriber("Lanz");
 
         newNews.subscribe(forth);
         newNews.subscribe(fifth);

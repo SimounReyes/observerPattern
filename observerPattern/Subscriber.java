@@ -1,10 +1,9 @@
 package observerPattern;
-import java.util.ArrayList;
-import java.util.List;
+
 public class Subscriber implements SubscriberObserver{
     private String nameOfSubscriber;
 
-    public void setSubscriberName(String nameOfSubscriber) {
+    public void setNameOfSubscriber(String nameOfSubscriber) {
         this.nameOfSubscriber = nameOfSubscriber;
     }
 
